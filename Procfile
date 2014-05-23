@@ -1,1 +1,1 @@
-web: ember server --port $port
+web: ember server --port $PORT --live-reload false --environment production
