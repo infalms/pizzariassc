@@ -9,7 +9,8 @@
   "scripts": {
     "start": "ember server",
     "build": "ember build",
-    "test": "ember test"
+    "test": "ember test",
+    "postinstall": "bower install"
   },
   "repository": "https://github.com/stefanpenner/ember-cli",
   "engines": {
@@ -34,6 +35,5 @@
     "express": "^4.1.1",
     "body-parser": "^1.2.0",
     "glob": "^3.2.9"
-  },
-  "postinstall": "bower install"
+  }
 }
