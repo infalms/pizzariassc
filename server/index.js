@@ -6,8 +6,9 @@
 //     res.send('hello');
 //   });
 // };
-
+require('newrelic');
 var express    = require('express');
+var redis      = require('redis-url').connect(process.env.REDISTOGO_URL);
 var bodyParser = require('body-parser');
 var globSync   = require('glob').sync;
 var routes     = globSync('./routes/*.js', { cwd: __dirname }).map(require);
