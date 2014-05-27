@@ -20,3 +20,4 @@ Thumbs.db
 /coverage/*
 npm-debug.log
 testem.log
+newrelic_agent.log
