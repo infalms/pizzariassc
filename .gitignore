@@ -8,6 +8,8 @@
 /node_modules
 /vendor/*
 !/vendor/_loader.js
+.bundle
+Gemfile.lock
 
 # misc
 /.sass-cache
